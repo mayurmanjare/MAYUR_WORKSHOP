@@ -1,0 +1,55 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button> 
+        
+      </ion-nav-buttons>
+   <ion-nav-buttons side="right">
+   
+        <i class="ion-android-notifications" side="right" style="font-size: larger;"> </i>  
+      </ion-nav-buttons>
+
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+  
+    <ion-content>
+      <ion-list>
+
+        <ion-item menu-close href="#/app/allcource">
+          <i class="ion-ios-book"> All Cources</i>          
+        </ion-item>
+
+        <ion-item menu-close href="#/app/calendar">
+             <i class=" ion-ios-calendar"> Calender</i>  
+        </ion-item>
+
+        <ion-item menu-close href="#/app/myacc">
+          <i class="ion-android-contact ">  My Account</i>
+        </ion-item>
+
+        <ion-item menu-close href="#/app/contactus">
+           <i class="ion-android-call ">  Contact Us</i>
+        </ion-item>
+
+         <ion-item menu-close href="#/app/myorder">
+           <i class="ion-briefcase">  My Order</i>
+        </ion-item>
+
+          <ion-item menu-close href="#/app/logout">
+             <i class="ion-log-out">  Logout</i> 
+        </ion-item>
+         <ion-item menu-close href="#/app/home" ng-hide="true">
+          
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

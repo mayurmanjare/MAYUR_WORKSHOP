@@ -1,0 +1,9 @@
+<ion-view view-title="ALL COURCES">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="cource in cources" href="#/app/cource/{{cource.id}}">
+        {{cource.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
